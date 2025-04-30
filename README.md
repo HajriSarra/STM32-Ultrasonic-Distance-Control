@@ -48,7 +48,7 @@ This project was a great opportunity to practice and improve my embedded systems
 
 - 📐 **Ultrasonic sensor integration**: Learned how to trigger and read echo times to calculate distances using precise timer input capture in STM32.
 - 🔧 **Servo motor control**: Gained hands-on experience generating PWM signals using STM32 timers to control servo angles.
-- 🧾 **LCD interfacing**: Practiced displaying dynamic sensor data on an LCD in real-time using GPIO or I2C.
+- 🧾 **LCD interfacing**: Practiced displaying dynamic sensor data on an LCD in real-time using I2C.
 - 📚 **STM32 HAL library usage**: Became more confident with HAL-based development and debugging within STM32CubeIDE.
 - 🧠 **Real-time systems logic**: Understood how to structure polling-based systems to respond to real-time events efficiently.
 - 📈 **Project documentation**: Improved my ability to document and structure code for readability and sharing with others.
