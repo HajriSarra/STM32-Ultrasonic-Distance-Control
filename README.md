@@ -1,7 +1,7 @@
 # STM32 Ultrasonic Distance-Based Servo Control
 
 ## 📌 Overview
-This project demonstrates real-time distance measurement using an **ultrasonic sensor** with an **STM32 microcontroller**. When an object is detected within **20 cm**, a **servo motor** rotates from **0° to 90°**, simulating a basic proximity-based actuation system. The measured distance is also displayed on a **16x2 LCD screen** in real-time.
+This project demonstrates real-time distance measurement using an **ultrasonic sensor** with an **STM32 microcontroller**. When an object is detected within **10 cm**, a **servo motor** rotates from **0° to 90°**, simulating a basic proximity-based actuation system. The measured distance is also displayed on a **16x2 LCD screen** in real-time.
 
 ---
 
@@ -17,7 +17,7 @@ This project demonstrates real-time distance measurement using an **ultrasonic s
 
 ## 💡 Features
 - Real-time object detection and measurement using ultrasonic sensing
-- Servo motor reacts to nearby objects (within 20 cm)
+- Servo motor reacts to nearby objects (within 10 cm)
 - LCD shows live distance readings in centimeters
 - Efficient polling with STM32 HAL libraries
 
@@ -34,9 +34,9 @@ This project demonstrates real-time distance measurement using an **ultrasonic s
 ## 🚀 How It Works
 1. The HC-SR04 sensor sends out an ultrasonic pulse and listens for the echo.
 2. The time taken for the echo to return is used to calculate distance.
-3. If the distance is less than 20 cm:
+3. If the distance is less than 10 cm:
    - The servo rotates to 90°
-4. If the distance is greater than or equal to 20 cm:
+4. If the distance is greater than or equal to 10 cm:
    - The servo remains at 0°
 5. The 2x16 LCD updates the current distance in real-time.
 
@@ -57,6 +57,7 @@ This project was a great opportunity to practice and improve my embedded systems
 
 ## 📸 Demo
 found on my linkedin profile :
+https://www.linkedin.com/posts/sarra-hajri-3b9a0a2a7_embeddedsystems-stm32-iot-activity-7323389214799106048-GUpH?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEoCrb0BzN8Y119dKAU1bbaaJUlmCnezDqo
 ---
 
 
